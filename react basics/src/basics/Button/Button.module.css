@@ -1,0 +1,11 @@
+.button{
+    background-color: #F05D23;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: Biko, sans-serif;
+    font-size: 1em;
+  }
