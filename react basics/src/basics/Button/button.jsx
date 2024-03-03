@@ -1,8 +1,11 @@
 import styles from './Button.module.css';
 
 function Button() {
-  return(
-    <button className={styles.button} >Click me</button>
+  const handleClick = (e) => e.target.textContent = "Ouch! Stop it";
+  const handleClick2 = (e) => e.target.textContent = "Click Me Papi!";
+
+  return (
+    <button className={styles.button} onClick={(e) => handleClick(e)} onMouseLeave={(e)=> handleClick2(e)}>Click me</button>
   );
 }
 

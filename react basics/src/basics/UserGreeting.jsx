@@ -1,16 +1,14 @@
-import Card from './card.jsx';
 import Student from './student.jsx';
 
 function UserGreeting(props) {
     const welcomeMessage = <>
         <h2 className='welcome-message'>Welcome {props.username}</h2>
-        <Card />
         <Student />
     </>
 
 
     if (props.isLoggedIn) {
-        return
+        return welcomeMessage;
     }
     else {
         return <h2>Please log in to continue</h2>
