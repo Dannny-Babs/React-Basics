@@ -1,4 +1,4 @@
-import MyComponent from "./MyComponents.jsx";
+import Counter from "./Counter.jsx";
 import UserGreeting from "./basics/UserGreeting.jsx";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <UserGreeting isLoggedIn={true} username="mrTalo" />
-      <MyComponent/>   
+      <Counter/>   
   
     </>
   );
