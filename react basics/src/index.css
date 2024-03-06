@@ -125,3 +125,28 @@ body {
   border-radius: 5px;
   border: 1px solid #b9b9b9;
 }
+
+.cars input{
+  font-family: Montserrat Alternates;
+  font-size: 0.8em;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 12px;
+  border: 1px solid #F05D23;
+}
+
+.cars button{
+  font-family: Montserrat Alternates;
+  font-size: 1em;
+  width: 80px;
+  height: 40px;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 12px;
+  background-color: #F05D23;
+  border: none;
+  color: #fff5ef;
+  cursor: pointer;
+}
