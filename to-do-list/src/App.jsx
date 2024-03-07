@@ -1,10 +1,10 @@
-import './App.css'
+import TodoList from "./Todolist"
 
 function App() {
 
   return (
     <>
-      
+      <TodoList/>
     </>
   )
 }
